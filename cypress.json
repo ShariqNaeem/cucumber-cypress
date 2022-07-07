@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://test-automation.hi-clouds.com/",
+    "defaultCommandTimeout":60000,
+    "viewportWidth": 1200,
+    "viewportHeight": 660,
+    "experimentalSessionSupport": false,
+    "testFiles": "**/*.{feature,features}",
+    "requestTimeout":20000
+}

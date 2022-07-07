@@ -1,0 +1,34 @@
+{
+    "user":{
+        "organization":"AutomatedOrganization",
+        "email":"user@yopmail.com",
+        "password":"Mobile@1",
+        "role":"USER",
+        "status":"radio01",
+        "firtname":"user",
+        "lastname":"test",
+        "address":"house# 786, block 5D"
+    },
+    "vpnuser":{
+        "organization":"AutomatedOrganization",
+        "email":"vpn@yopmail.com",
+        "password":"Mobile@1",
+        "role":"VPN_USER",
+        "status":"radio02",
+        "firtname":"vpn",
+        "lastname":"test",
+        "address":"house# 786, block 5D"
+    },
+    "admin":{
+        "organization":"AutomatedOrganization",
+        "email":"admin@yopmail.com",
+        "password":"Mobile@1",
+        "role":"PLATFORM_ADMIN",
+        "status":"radio02",
+        "firtname":"admin",
+        "lastname":"test",
+        "address":"house# 786, block 5D"
+    }
+
+  }
+  
