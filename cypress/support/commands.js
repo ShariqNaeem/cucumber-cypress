@@ -7,13 +7,13 @@ Cypress.Commands.add("ValidateForgotPasswordPage", () => {
 
   Cypress.Commands.add("validateSuccessMessage", () => {
     cy
-      .get('.ajs-success')
+      .get('div[class="toast-section Success"]')
       .should('be.visible')
   });
 
   Cypress.Commands.add("validateErrorMessage", () => {
     cy
-      .get('.ajs-error')
+      .get('div[class="toast-section Error"]')
       .should('be.visible')
   });
 
