@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:edge": "cypress run --browser edge",
-    "cypress:chrome": "cypress run --browser chrome",
-    "cypress:electron": "cypress run --browser electron"
+    "cypress:edge": "node_modules\\.bin\\cypress run --browser edge",
+    "cypress:chrome": "node_modules\\.bin\\cypress run --browser chrome",
+    "cypress:electron": "node_modules\\.bin\\cypress run --browser electron"
   },
   "keywords": [],
   "author": "",
